@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <link rel="stylesheet" href="index.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="all">
+      <form id="bot">
+        <label for="Name">Name</label><br />
+        <input class="box" id="Name" name="Name" type="text" />
+        <br />
+        <label for="track">Track</label><br />
+        <select class="box2" name="track" id="track">
+          <br /><option value="">web</option>
+          <option value="">game</option>
+          <option value="">others</option>
+          <br />
+        </select>
+
+        <label for="Email">Email adress</label>:<br />
+        <input class="box" id="Email" type="text" name="Email" />
+        <br />
+        <label for="Phone">Phone number</label>:<br />
+        <input class="box" id="Phone" type="text" name="Phone" />
+        <br />
+        <br />
+        <button class="box">submit</button>
+      </form>
+    </div>
+  </body>
+
+  <script src="https://www.gstatic.com/firebasejs/6.4.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/6.4.0/firebase-database.js"></script>
+  <script src="main.js"></script>
+</html>
